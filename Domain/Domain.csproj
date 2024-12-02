@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <Folder Include="Entities\Attachements\Exceptions\" />
-      <Folder Include="Exceptions\" />
     </ItemGroup>
 
     <ItemGroup>
