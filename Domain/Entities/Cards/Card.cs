@@ -7,7 +7,7 @@ namespace Domain.Entities;
 
 public class Card : BaseAuditableEntity
 {
-    [MinLength(5, ErrorMessage = "Card name must be at least 5 characters.")]
+    [MinLength(5, ErrorMessage = "Card name must have at least 5 characters.")]
     public required string ShortName { get; set; } 
     public string FullName { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
