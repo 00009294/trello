@@ -8,9 +8,9 @@ public class Desk : BaseAuditableEntity
     public IEnumerable<Card>? Cards { get; set; }
 
     #region ForeignKeys
-    
+
     public Board Board { get; set; }
     public required int BoardId { get; set; }
-    
+
     #endregion
 }

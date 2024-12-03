@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fayzu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SideProjects\\trello\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B181C83-C551-4F35-B360-FF30134C36AF}|Domain\\Domain.csproj|c:\\users\\fayzu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sideprojects\\trello\\domain\\persistence\\repositories\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B181C83-C551-4F35-B360-FF30134C36AF}|Domain\\Domain.csproj|solutionrelative:domain\\persistence\\repositories\\iasyncrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B181C83-C551-4F35-B360-FF30134C36AF}|Domain\\Domain.csproj|c:\\users\\fayzu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sideprojects\\trello\\domain\\persistence\\repositories\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B181C83-C551-4F35-B360-FF30134C36AF}|Domain\\Domain.csproj|solutionrelative:domain\\persistence\\repositories\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B181C83-C551-4F35-B360-FF30134C36AF}|Domain\\Domain.csproj|c:\\users\\fayzu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\sideprojects\\trello\\domain\\persistence\\repositories\\efbaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B181C83-C551-4F35-B360-FF30134C36AF}|Domain\\Domain.csproj|solutionrelative:domain\\persistence\\repositories\\efbaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EfBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fayzu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SideProjects\\trello\\Domain\\Persistence\\Repositories\\EfBaseRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Persistence\\Repositories\\EfBaseRepository.cs",
+              "ToolTip": "C:\\Users\\fayzu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SideProjects\\trello\\Domain\\Persistence\\Repositories\\EfBaseRepository.cs",
+              "RelativeToolTip": "Domain\\Persistence\\Repositories\\EfBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T19:03:16.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IAsyncRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fayzu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SideProjects\\trello\\Domain\\Persistence\\Repositories\\IAsyncRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Persistence\\Repositories\\IAsyncRepository.cs",
+              "ToolTip": "C:\\Users\\fayzu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SideProjects\\trello\\Domain\\Persistence\\Repositories\\IAsyncRepository.cs",
+              "RelativeToolTip": "Domain\\Persistence\\Repositories\\IAsyncRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:22:18.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IQuery.cs",
+              "DocumentMoniker": "C:\\Users\\fayzu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SideProjects\\trello\\Domain\\Persistence\\Repositories\\IQuery.cs",
+              "RelativeDocumentMoniker": "Domain\\Persistence\\Repositories\\IQuery.cs",
+              "ToolTip": "C:\\Users\\fayzu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SideProjects\\trello\\Domain\\Persistence\\Repositories\\IQuery.cs",
+              "RelativeToolTip": "Domain\\Persistence\\Repositories\\IQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:20:02.65Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

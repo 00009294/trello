@@ -7,10 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Entities\Attachements\Exceptions\" />
+      <Compile Remove="Entities\Attachements\Exceptions\**" />
+      <EmbeddedResource Remove="Entities\Attachements\Exceptions\**" />
+      <None Remove="Entities\Attachements\Exceptions\**" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
       <PackageReference Include="Xeption" Version="2.8.0" />
     </ItemGroup>
 

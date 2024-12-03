@@ -1,27 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Javlonbek/Desktop/projects/Trello/Infrastructure/Infrastructure.csproj": {}
+    "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/Javlonbek/Desktop/projects/Trello/Application/Application.csproj": {
+    "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Javlonbek/Desktop/projects/Trello/Application/Application.csproj",
+        "projectUniqueName": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/Javlonbek/Desktop/projects/Trello/Application/Application.csproj",
-        "packagesPath": "/Users/Javlonbek/.nuget/packages/",
-        "outputPath": "/Users/Javlonbek/Desktop/projects/Trello/Application/obj/",
+        "projectPath": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\fayzu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/Javlonbek/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\NuGet.Config",
+          "C:\\Users\\fayzu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/open-xml-powertools": {},
+          "https://package.webase.uz/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -33,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -54,28 +64,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/Javlonbek/Desktop/projects/Trello/Domain/Domain.csproj": {
+    "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Javlonbek/Desktop/projects/Trello/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/Javlonbek/Desktop/projects/Trello/Domain/Domain.csproj",
-        "packagesPath": "/Users/Javlonbek/.nuget/packages/",
-        "outputPath": "/Users/Javlonbek/Desktop/projects/Trello/Domain/obj/",
+        "projectPath": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\fayzu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/Javlonbek/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\NuGet.Config",
+          "C:\\Users\\fayzu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/open-xml-powertools": {},
+          "https://package.webase.uz/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -87,12 +102,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Xeption": {
               "target": "Package",
               "version": "[2.8.0, )"
@@ -114,38 +138,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/Javlonbek/Desktop/projects/Trello/Infrastructure/Infrastructure.csproj": {
+    "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Javlonbek/Desktop/projects/Trello/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/Javlonbek/Desktop/projects/Trello/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/Users/Javlonbek/.nuget/packages/",
-        "outputPath": "/Users/Javlonbek/Desktop/projects/Trello/Infrastructure/obj/",
+        "projectPath": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\fayzu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/Javlonbek/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\NuGet.Config",
+          "C:\\Users\\fayzu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://ci.appveyor.com/nuget/open-xml-powertools": {},
+          "https://package.webase.uz/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/Javlonbek/Desktop/projects/Trello/Application/Application.csproj": {
-                "projectPath": "/Users/Javlonbek/Desktop/projects/Trello/Application/Application.csproj"
+              "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Application\\Application.csproj"
               },
-              "/Users/Javlonbek/Desktop/projects/Trello/Domain/Domain.csproj": {
-                "projectPath": "/Users/Javlonbek/Desktop/projects/Trello/Domain/Domain.csproj"
+              "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Domain\\Domain.csproj"
               }
             }
           }
@@ -154,6 +183,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -181,7 +215,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

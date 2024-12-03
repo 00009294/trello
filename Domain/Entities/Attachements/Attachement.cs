@@ -11,6 +11,6 @@ public class Attachement : BaseAuditableEntity
 
     #region ForeignKeys
     public Card Card { get; set; }
-    public required int CardId { get; set; } 
+    public required int CardId { get; set; }
     #endregion
 }

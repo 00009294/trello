@@ -1,6 +1,6 @@
 namespace Infrastructure.Exceptions;
 
-public class EntityNotFoundException 
+public class EntityNotFoundException
 {
-    
+
 }
