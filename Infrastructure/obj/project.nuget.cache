@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "kbbtwiS8EFE=",
   "success": true,
-  "projectFilePath": "/Users/Javlonbek/Desktop/projects/trello/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/Users/Javlonbek/Desktop/projects/Trello/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/Javlonbek/.nuget/packages/deepcloner/0.10.4/deepcloner.0.10.4.nupkg.sha512",
     "/Users/Javlonbek/.nuget/packages/fluentassertions/6.5.1/fluentassertions.6.5.1.nupkg.sha512",

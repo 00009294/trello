@@ -5321,12 +5321,12 @@
     "Application/1.0.0": {
       "type": "project",
       "path": "../Application/Application.csproj",
-      "msbuildProject": "../../Trello/Application/Application.csproj"
+      "msbuildProject": "../Application/Application.csproj"
     },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
-      "msbuildProject": "../../Trello/Domain/Domain.csproj"
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
