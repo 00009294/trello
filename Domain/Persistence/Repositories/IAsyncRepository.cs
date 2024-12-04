@@ -10,7 +10,7 @@ namespace Domain.Persistence.Repositories
         Task<TEntity?> GetAsync(
             Expression<Func<TEntity, bool>> predicate,
             Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
-            bool enableTracking = false,
+            bool enableTracking = false ,
             CancellationToken cancellationToken = default
         );
 
