@@ -29,7 +29,17 @@ namespace Application.Features.Boards
                 Board newBoard = new Board
                 {
                     Name = request.Name,
-                    Description = request.Description
+                    Description = request.Description,
+                    Users = new List<User>
+                    {
+                        new User
+                        {
+                            Username = "Default",
+                            Email = "defaultEmail",
+                            PasswordHash = "PasswordHash",
+                            PasswordSalt = "PasswordSalt"
+                        }
+                    }
                 };
 
                 var entity = await this.boardRepository.AddAsync(newBoard, cancellationToken);
