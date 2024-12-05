@@ -8,26 +8,31 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/Javlonbek/.nuget/packages/": {}
+    "C:\\Users\\fayzu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Javlonbek/Desktop/projects/Trello/Application/Application.csproj",
+      "projectUniqueName": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "/Users/Javlonbek/Desktop/projects/Trello/Application/Application.csproj",
-      "packagesPath": "/Users/Javlonbek/.nuget/packages/",
-      "outputPath": "/Users/Javlonbek/Desktop/projects/Trello/Application/obj/",
+      "projectPath": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\fayzu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\SideProjects\\trello\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/Javlonbek/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\fayzu\\OneDrive\\Рабочий стол\\NuGet.Config",
+        "C:\\Users\\fayzu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://ci.appveyor.com/nuget/open-xml-powertools": {},
+        "https://package.webase.uz/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -39,6 +44,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -60,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
