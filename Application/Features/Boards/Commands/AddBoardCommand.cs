@@ -63,7 +63,7 @@ namespace Application.Features.Boards
                 return new AddBoardResponse
                 {
                     IsSuccess = false,
-                    Message = $"An error occurred: {ex.Message} + {ex.InnerException}"
+                    Message = $"An error occurred: {ex.Message} + {ex.InnerException} "
                 };
             }
         }
