@@ -1,7 +1,6 @@
 using Domain.Common;
 using Domain.Enums;
 using System.ComponentModel.DataAnnotations;
-using System.Net.Mail;
 
 namespace Domain.Entities;
 
@@ -13,18 +12,18 @@ public class Card : BaseAuditableEntity
     public string Description { get; set; } = string.Empty;
     public DateTime FactStartAt { get; set; }
     public DateTime? FactEndAt { get; set; }
+    public int? PerformerId { get; set; }
+    public int StateId { get; set; }
+    public int PriorityId { get; set; }
+    public int StatusId { get; set; }
 
     #region ForeignKeys
-
+    public Desk Desk { get; set; }
+    public required int DeskId { get; set; }
     public User Author { get; set; }
     public required int AuthorId { get; set; }
     public User? Performer { get; set; }
-    public int? PerformerId { get; set; }
-    public State State { get; set; }
-    public required int StateId { get; set; }
-    public Priority Priority { get; set; }
-    public required int PriorityId { get; set; }
-    public IEnumerable<Attachment>? Attachments { get; set; }
+    public IEnumerable<Attachement>? Attachements { get; set; }
 
     #endregion
 
