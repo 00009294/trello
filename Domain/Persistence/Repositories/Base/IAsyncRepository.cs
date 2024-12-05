@@ -24,22 +24,22 @@ namespace Domain.Persistence.Repositories
         );
 
         Task<TEntity> AddAsync(
-            TEntity entity, 
+            TEntity entity,
             CancellationToken cancellationToken);
         Task<IEnumerable<TEntity>> AddRangeAsync(
-            IEnumerable<TEntity> entities, 
+            IEnumerable<TEntity> entities,
             CancellationToken cancellationToken);
         Task<TEntity> UpdateAsync(
-            TEntity entity, 
+            TEntity entity,
             CancellationToken cancellationToken);
         Task<IEnumerable<TEntity>> UpdateRangeAsync(
-            IEnumerable<TEntity> entities, 
+            IEnumerable<TEntity> entities,
             CancellationToken cancellationToken);
         Task<TEntity> DeleteAsync(
-            TEntity entity, 
+            TEntity entity,
             CancellationToken cancellationToken);
         Task<IEnumerable<TEntity>> DeleteRangeAsync(
-            IEnumerable<TEntity> entities, 
+            IEnumerable<TEntity> entities,
             CancellationToken cancellationToken);
         Task<bool> AllAsync(
             Expression<Func<TEntity, bool>> predicate,
