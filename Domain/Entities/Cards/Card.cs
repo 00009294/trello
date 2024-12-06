@@ -14,7 +14,7 @@ public class Card : BaseAuditableEntity
     public DateTime? FactEndAt { get; set; }
     public int? PerformerId { get; set; }
     public int StateId { get; set; }
-    public int PriorityId { get; set; }
+    public int? PriorityId { get; set; }
     public int StatusId { get; set; }
 
     #region ForeignKeys
