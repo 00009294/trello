@@ -9,5 +9,5 @@ public class Board : BaseAuditableEntity
     public required string Name { get; set; }
     public string Description { get; set; } = string.Empty;
     public IEnumerable<Desk>? Desks { get; set; }
-    public required IEnumerable<User> Users { get; set; }
+    public IEnumerable<User>? Users { get; set; }
 }
